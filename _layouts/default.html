@@ -5,15 +5,45 @@
 
   <body>
 
+  <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {% include navbar.html %}
+
+    <main class="mdl-layout__content mdl-color--grey-100">
+        <div class="mdl-grid demo-content">
+          <div class="demo-cards mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+            <div class="demo-updates mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+            
+            
+
+              <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+              
+              <span class="mdl-layout-title responsive">Tour del feed</span>
+              
+				 {{ content }}
+
+              </div>
+              <div class="mdl-card__supporting-text mdl-color-text--grey-600 link">
+              	<a class="mdl-navigation__link" href="">Scarica requisiti tecnici</a>
+                
+                <div class="mdl-card__buttons">
+                <a href="struttura-del-catalogo.html" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">Inizia</a>
+              </div>
+              </div>
+              
+            </div>
+            <div class="demo-separator mdl-cell--1-col"></div>
+            
+          </div>
+        </div>
+      </main>
 
     {% include footer.html %}
+
+  </div>
 
   </body>
 
