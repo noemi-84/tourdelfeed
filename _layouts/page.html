@@ -1,43 +1,17 @@
-<!DOCTYPE html>
-<html>
+--
+layout: default
+my_key: key
+---
+<article class="post">
 
-  {% include head.html %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  
+  {{ my_key }}
 
-  <body>
-
-  <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-
-
-    {% include header.html %}
-
-    {% include navbar.html %}
-
-    <main class="mdl-layout__content mdl-color--grey-100">
-        <div class="mdl-grid demo-content">
-          <div class="demo-cards mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-            <div class="demo-updates mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
-            
-            
-
-              <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-              
-              <span class="mdl-layout-title responsive">{{ page.title }}</span>
-              
-				 {{ content }}
-
-              </div>
-              
-            </div>
-            <div class="demo-separator mdl-cell--1-col"></div>
-            
-          </div>
-        </div>
-      </main>
-
-    {% include footer.html %}
-
+  <div class="post-content">
+    {{ content }}
   </div>
 
-  </body>
-
-</html>
+</article>
