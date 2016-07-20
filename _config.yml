@@ -25,7 +25,8 @@ collections:
    step:
     output: true
     nome: "mio2"
-metadata:
+prose:
+  metadata:
     _step:
       - name: "mio"
         field:
