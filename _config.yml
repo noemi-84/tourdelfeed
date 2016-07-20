@@ -30,5 +30,6 @@ prose:
     _step:
       - name: "mio"
         field:
-        element: "text"
-        value: "blog"
+          element: "text"
+          value: ""
+          label: "mio"
