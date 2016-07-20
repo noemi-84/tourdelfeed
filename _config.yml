@@ -28,7 +28,7 @@ collections:
     defaults:
       - scope:
         path: ""
-        type: posts
+        type: step
     values:
         thumbnail: ""
         categories: []
