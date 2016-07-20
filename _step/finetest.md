@@ -4,3 +4,5 @@ permalink: /title.html
 url: /title.html
 ---
 nuovo test con metadata
+
+{{ page.url }}
