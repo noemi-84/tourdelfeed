@@ -36,7 +36,6 @@ prose:
 defaults:
   - scope:
         path: ""
-        type: _step
     values:
         thumbnail: ""
         categories: []
