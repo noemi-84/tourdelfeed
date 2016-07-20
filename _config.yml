@@ -24,7 +24,7 @@ markdown: kramdown
 collections: 
   step:
     output: true
-	defaults:
+    defaults:
   - scope:
       path: ""
       type: my_collection
