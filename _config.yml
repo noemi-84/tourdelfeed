@@ -25,6 +25,14 @@ collections:
    step:
     output: true
     nome: "mio2"
+    defaults:
+      - scope:
+        path: ""
+        type: posts
+    values:
+        thumbnail: ""
+        categories: []
+        description: ""
 prose:
   metadata:
     _step:
