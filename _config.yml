@@ -27,3 +27,6 @@ collections:
     metadata:
     _step:
       - name: "mio"
+        field:
+        element: "text"
+        value: "blog"
