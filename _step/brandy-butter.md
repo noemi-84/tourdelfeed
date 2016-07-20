@@ -1,6 +1,6 @@
 ---
 title: Brandy Butter
-date: '2016-07-20 08:39:54'
+date: '2016-07-20 00:00:00'
 layout: page_var
 image: http://farm3.staticflickr.com/2157/2133911076_1bc7193739_q.jpg
 recipe-attribution: wikihow
