@@ -24,6 +24,13 @@ markdown: kramdown
 collections: 
   step:
     output: true
+	foo: bar
+	defaults:
+  - scope:
+      path: ""
+      type: my_collection
+    values:
+      layout: page
 	
 #metadata
 metadata:
