@@ -24,7 +24,6 @@ markdown: kramdown
 collections: 
   step:
     output: true
-	
 #metadata
 metadata:
   _step:
