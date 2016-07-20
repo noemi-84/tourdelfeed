@@ -24,6 +24,7 @@ markdown: kramdown
 collections: 
    step:
     output: true
+    nome: "mio2"
 metadata:
     _step:
       - name: "mio"
