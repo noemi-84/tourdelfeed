@@ -25,14 +25,6 @@ collections:
    step:
     output: true
     nome: "mio2"
-    defaults:
-      - scope:
-        path: ""
-        type: step
-    values:
-        thumbnail: ""
-        categories: []
-        description: ""
 prose:
   metadata:
     _step:
@@ -41,3 +33,11 @@ prose:
           element: "text"
           value: ""
           label: "mio"
+defaults:
+  - scope:
+        path: ""
+        type: _step
+    values:
+        thumbnail: ""
+        categories: []
+        description: ""
