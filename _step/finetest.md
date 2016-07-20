@@ -5,4 +5,4 @@ url: /title.html
 ---
 nuovo test con metadata
 
-{{ page.url }}
+{{ site.url }}
