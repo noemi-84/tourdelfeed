@@ -28,7 +28,7 @@ collections:
 	defaults:
   - scope:
       path: ""
-      type: my_collection
+      type: step
     values:
       layout: page
 	
