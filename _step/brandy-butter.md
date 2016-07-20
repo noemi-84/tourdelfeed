@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: page_var
 title: Brandy Butter
 image: http://farm3.staticflickr.com/2157/2133911076_1bc7193739_q.jpg
 recipe-attribution: wikihow
