@@ -28,4 +28,7 @@ collections:
 #metadata
 metadata:
   _step:
-    - test_meta: 
+    - name: "title"
+      field:
+        element: "text"
+        label: "title"
