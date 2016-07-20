@@ -1,5 +1,5 @@
 ---
 published: false
-permalink: /awesome/title.html
+permalink: /title.html
 ---
 nuovo test con metadata
