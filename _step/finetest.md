@@ -1,5 +1,5 @@
 ---
 published: false
-permalink: provaditestfinale
+permalink: '/awesome/:path/'
 ---
 nuovo test con metadata
