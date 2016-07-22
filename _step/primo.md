@@ -1,9 +1,9 @@
 ---
 title: Primo
-date: '2016-07-22 12:37:00'
-thumbnail: testo help
-categories: []
-description: 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
+date: '2016-07-22 12:51:00'
+link pdf requisiti: "#link-pdf"
+link prossima pagina: "#link-prossima-pagina"
+testo help: 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
   sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
   sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
   sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
@@ -11,7 +11,7 @@ description: 'lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum 
   sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
   sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
   sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor
-  sit amet '
+  sit amet lorem ipsum dolor sit amet '
 layout: page_var
 ---
-questo sarà il testo della pagina
+questo è il testo
