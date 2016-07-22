@@ -1,6 +1,6 @@
 ---
-title: nuovo 1
-date: '2016-07-20 12:17:00'
+title: nuovo titolo
+date: '2016-07-20 00:00:00'
 layout: default
 ---
 metadata:
