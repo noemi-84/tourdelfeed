@@ -38,6 +38,6 @@ defaults:
         path: ""
         type: step
     values:
-        thumbnail: ""
-        categories: []
+        link pdf requisiti: ""
+        link prossima pagina: ""
         testo help: ""
