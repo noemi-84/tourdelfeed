@@ -31,9 +31,9 @@
               
               {% for page in site.pages %}
               {% for step in site.step %}
-              	{% if page.title == step.title %}
+              	{% if page.url == step.url %}
                 	ok, ci siamo
-                    {{ step.post }}
+
                     titolo
                     {{ step.title }}
                 {% endif %}
