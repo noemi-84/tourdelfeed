@@ -1,2 +1,17 @@
 
 <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+<script>
+	
+		$(document).ready(function() {
+			
+			$('.wrapper').find('a[href="#"]').on('click', function (e) {
+		
+				e.preventDefault();
+				this.expand = !this.expand;
+				$(this).closest('.wrapper').find('.small, .big').toggleClass('small big');
+				
+	});
+});
+  
+	
+	</script>

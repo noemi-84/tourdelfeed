@@ -28,15 +28,36 @@
               </div>
               
               
-              
-              <p>qui</p>
-              
+                            
               
               {% for step in site.step %}
               	{% if page.title == step.title %}
-                    {{ step.title }}
-                    {{ step.content }}
-                    {{ step.link-pdf-requisiti }}
+                	<div class="wrapper">
+                      <div class="mdl-card__supporting-text mdl-color-text--grey-600 link">
+                        <a id="openup" class="mdl-navigation__link" href="#">Hai risposto NO ad almeno una domanda?</a>
+                      </div>
+                      
+                      <div class="mdl-card__supporting-text mdl-color-text--grey-600 link small">
+                      
+                        <h2 class="mdl-layout-title small">HELP – {{ step.title }}:</h2>
+                        
+                        {{ step.content }}
+                        
+                        {% if step.alert == ""  %}
+                        
+                        <div class="alert">
+                        ATTENZIONE: {{ step.alert }}
+                        </div>
+                        {% endif %}
+                      </div>
+                      
+                      </div>
+                
+                    
+                    
+                    
+                
+                
                 {% endif %}
               
               {% endfor %}
