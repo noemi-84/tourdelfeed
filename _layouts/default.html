@@ -27,6 +27,14 @@
 
               </div>
               
+              <p>qui</p>
+              
+              {% for page in site.pages %}
+              	{% if page.permalink == '/demo/' %}
+                	ok, ci siamo
+                {% endif %}
+              {% endfor %}
+              
             </div>
             <div class="demo-separator mdl-cell--1-col"></div>
             
