@@ -38,9 +38,7 @@ defaults:
         path: ""
         type: step
     values:
-        link-pdf-requisiti: ""
-        link-prossima-pagina: ""
-        testo-help: ""
+        alert: ""
 defaults:
   - scope:
         path: ""
@@ -48,4 +46,4 @@ defaults:
     values:
         link-pdf-requisiti: ""
         link-prossima-pagina: ""
-        testo-help: ""
+        link-pagina-precedente: ""
