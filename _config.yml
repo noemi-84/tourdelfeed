@@ -36,14 +36,7 @@ prose:
 defaults:
   - scope:
         path: ""
-        type: step
-    values:
-        link-pdf-requisiti: ""
-        link-prossima-pagina: ""
-        testo-help: ""
-- scope:
-        path: ""
-        type: page
+        type: step,page
     values:
         link-pdf-requisiti: ""
         link-prossima-pagina: ""
