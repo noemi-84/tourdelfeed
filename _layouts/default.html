@@ -30,7 +30,7 @@
               <p>qui</p>
               
               {% for page in site.pages %}
-              	{% if page.permalink == '/permalink.html' %}
+              	{% if page.url == '/permalink.html' %}
                 	ok, ci siamo
                 {% endif %}
               {% endfor %}
