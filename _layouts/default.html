@@ -31,7 +31,7 @@
               
               {% for page in site.pages %}
               {% for step in site.step %}
-              	{% if page.url == '/permalink.html' %}
+              	{% if page.title == step.title %}
                 	ok, ci siamo
                     {{ step.post }}
                     titolo
