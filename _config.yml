@@ -41,3 +41,10 @@ defaults:
         link-pdf-requisiti: ""
         link-prossima-pagina: ""
         testo-help: ""
+- scope:
+        path: ""
+        type: page
+    values:
+        link-pdf-requisiti: ""
+        link-prossima-pagina: ""
+        testo-help: ""
