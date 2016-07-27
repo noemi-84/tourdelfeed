@@ -30,12 +30,14 @@
               <p>qui</p>
               
               {% for page in site.pages %}
+              {% for step in site.step %}
               	{% if page.url == '/permalink.html' %}
                 	ok, ci siamo
                     {{ step.post }}
                     titolo
                     {{ step.title }}
                 {% endif %}
+              {% endfor %}
               {% endfor %}
               
             </div>
