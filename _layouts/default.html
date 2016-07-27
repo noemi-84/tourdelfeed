@@ -21,11 +21,13 @@
 
               <div class="mdl-card__supporting-text mdl-color-text--grey-600">
               
-              <span class="mdl-layout-title responsive">{{ page.title }}</span>
+              	<span class="mdl-layout-title responsive">{{ page.title }}</span>
               
 				 {{ page.content }}
 
               </div>
+              
+              
               
               <p>qui</p>
               
@@ -38,6 +40,15 @@
                 {% endif %}
               
               {% endfor %}
+              
+              <div class="mdl-card__supporting-text mdl-color-text--grey-600 link">  
+              	<a class="mdl-navigation__link" href="{{ page.link-pdf-requisiti }}">Scarica requisiti tecnici</a>
+                
+                <div class="mdl-card__buttons">
+                <a href="{{ link-pagina-precedente }}" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised ">Indietro</a>
+                <a href="{{ link-prossima-pagina }}" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">Avanti</a>
+              </div>
+              </div>
               
             </div>
             <div class="demo-separator mdl-cell--1-col"></div>
