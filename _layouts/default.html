@@ -32,10 +32,9 @@
               
               {% for step in site.step %}
               	{% if page.title == step.title %}
-                	ok, ci siamo
-
-                    titolo
                     {{ step.title }}
+                    {{ step.content }}
+                    {{ step.link-pdf-requisiti }}
                 {% endif %}
               
               {% endfor %}
