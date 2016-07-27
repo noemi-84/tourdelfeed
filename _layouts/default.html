@@ -29,7 +29,7 @@
               
               <p>qui</p>
               
-              {% for page in site.pages %}
+              
               {% for step in site.step %}
               	{% if page.title == step.title %}
                 	ok, ci siamo
@@ -37,7 +37,7 @@
                     titolo
                     {{ step.title }}
                 {% endif %}
-              {% endfor %}
+              
               {% endfor %}
               
             </div>
