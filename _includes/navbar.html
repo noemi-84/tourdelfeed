@@ -5,9 +5,7 @@
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
         
         {% assign tabs = site.pages | sort: 'numero-di-pagina' %}
-        
-        {% if page.numero-di-pagina != "" %}
-        
+                
         {% for p in tabs %}
         
         
@@ -19,9 +17,13 @@
              
              <a class="mdl-navigation__link blue" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
-             {% else %} 
+             {% elsif page.numero-di-pagina != "" %} 
              
              <span class="mdl-navigation__link">{{ p.title }}</span>
+             
+             {% else %}
+             
+             
              
               {% endif %}
 		
@@ -29,10 +31,6 @@
         
         {% endfor %}
         
-         {% endif %}
-
-
-
           <div class="mdl-layout-spacer"></div>
         </nav>
       </div>
