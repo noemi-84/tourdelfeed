@@ -44,7 +44,7 @@ defaults:
         path: ""
         type: page
     values:
-        numero-di-pagina:
+        numero-di-pagina: ""
         link-pdf-requisiti: ""
         link-prossima-pagina: ""
         link-pagina-precedente: ""
