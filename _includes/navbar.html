@@ -6,7 +6,11 @@
         
         {% assign tabs = site.pages | sort: 'numero-di-pagina' %}
         {% for p in tabs %}
-            <a {% if p.url == page.url %}class="mdl-navigation__link active"{% else %} class="mdl-navigation__link" {% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+             {% if p.numero-di-pagina == page.numero-di-pagina %}
+             
+             <a class="mdl-navigation__link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+             
+              {% endif %} 
 
         {% endfor %}
 
