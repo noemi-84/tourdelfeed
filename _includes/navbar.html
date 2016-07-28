@@ -6,11 +6,13 @@
         
         {% assign tabs = site.pages | sort: 'numero-di-pagina' %}
         {% for p in tabs %}
-             {% if p.url == page.url && p.title != "" %} 
+        
+        {% if p.title != "" %}
+             {% if p.url == page.url %} 
              
              <a class="mdl-navigation__link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
-             {% elsif page.numero-di-pagina > p.numero-di-pagina && p.title != "" %}
+             {% elsif page.numero-di-pagina > p.numero-di-pagina %}
              
              <a class="mdl-navigation__link blue" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
@@ -19,7 +21,9 @@
              <span class="mdl-navigation__link">{{ p.title }}</span>
              
               {% endif %}
-
+		
+        {% endif %}
+        
         {% endfor %}
 
 
