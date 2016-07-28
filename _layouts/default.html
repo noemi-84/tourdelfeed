@@ -63,11 +63,25 @@
               {% endfor %}
               
               <div class="mdl-card__supporting-text mdl-color-text--grey-600 link">  
+              {% if page.link-pdf-requisiti != ""  %}
+              
               	<a class="mdl-navigation__link" href="{{ page.link-pdf-requisiti }}">Scarica requisiti tecnici</a>
                 
+             {% endif %}
+                
                 <div class="mdl-card__buttons">
+                
+                {% if page.link-pagina-precedente != ""  %}
+                
                 <a href="{{ page.link-pagina-precedente }}" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised ">Indietro</a>
+                
+                {% endif %}
+                
+                {% if page.link-prossima-pagina != ""  %}
+                
                 <a href="{{ page.link-prossima-pagina }}" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">Avanti</a>
+                {% endif %}
+                
               </div>
               </div>
               
