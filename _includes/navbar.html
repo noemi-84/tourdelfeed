@@ -3,22 +3,15 @@
           <img src="https://raw.githubusercontent.com/Mario84/tourdelfeed/gh-pages/images/logo.png" class="demo-logo">
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-        {% for my_page in site.pages %}
         
-        	
-          {% if my_page.title %}
-          <a {% if my_page.url == page.url %}class="mdl-navigation__link active"{% else %} class="mdl-navigation__link" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-         {% endif %}
-        {% endfor %}
-        
-        <section id="navbar">
-    <nav>
         {% assign tabs = site.pages | sort: 'numero-di-pagina' %}
         {% for p in tabs %}
             <span class="navitem"><a href="{{ p.url }}">{{ p.title }}</a></span>
         {% endfor %}
-    </nav>
-</section>
+
+
+
+
           <div class="mdl-layout-spacer"></div>
         </nav>
       </div>
