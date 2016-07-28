@@ -42,7 +42,7 @@ defaults:
 defaults:
   - scope:
         path: ""
-        type: page
+        type: pages
     values:
         numero-di-pagina: 1
         link-pdf-requisiti: ""
