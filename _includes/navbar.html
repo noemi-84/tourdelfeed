@@ -10,7 +10,7 @@
              
              <a class="mdl-navigation__link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
-             {% elsif page.numero-di-pagina < p.numero-di-pagina %}
+             {% elsif page.numero-di-pagina > p.numero-di-pagina %}
              
              <a class="mdl-navigation__link blue" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
