@@ -7,7 +7,7 @@
         {% assign tabs = site.pages | sort: 'numero-di-pagina' %}
         {% for p in tabs %}
         
-        {% if p.title != "" %}
+        {% if p.numero-di-pagina != "" %}
              {% if p.url == page.url %} 
              
              <a class="mdl-navigation__link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
