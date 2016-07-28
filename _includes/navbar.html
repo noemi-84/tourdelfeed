@@ -10,7 +10,11 @@
              
              <a class="mdl-navigation__link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
-              {% endif %} 
+             {% elsif p.numero-di-pagina < page.numero-di-pagina %}
+             
+             <a class="mdl-navigation__link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+             
+               {% endif %} 
 
         {% endfor %}
 
