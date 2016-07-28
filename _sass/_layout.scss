@@ -12,9 +12,12 @@ a{
 	background-color: #f2f2f2 !important;
 }
 
+.demo-layout .demo-navigation .mdl-navigation__link{
+	padding: 0 40px 10px 40px;
+}
+
 .demo-layout .demo-navigation .mdl-navigation__link:hover{
 	background-color: #dbdbdb;
-	padding: 0 40px 10px 40px;
 }
 
 .demo-layout .demo-navigation .mdl-navigation__link{
@@ -29,6 +32,15 @@ a{
 .demo-layout .demo-navigation .mdl-navigation__link.active{
 	color: #007ab5;
 	font-weight: 500;
+}
+
+.demo-layout .demo-navigation span.mdl-navigation__link{
+	cursor: auto;
+}
+
+.demo-layout .demo-navigation span.mdl-navigation__link:hover{
+	background-color: transparent;
+	text-decoration: none;
 }
 
 .mdl-color--grey-100 {
