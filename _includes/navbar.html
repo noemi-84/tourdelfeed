@@ -14,7 +14,7 @@
              
              {% elsif page.numero-di-pagina > p.numero-di-pagina %}
              
-             {% if page.layout != "none" %}
+             {% if p.layout != "none" %}
                            
              <div class="mdl-navigation__link blue"><a class="" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></div>
              
