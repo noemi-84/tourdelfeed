@@ -4,10 +4,17 @@
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
         {% for my_page in site.pages %}
+        
+        	
           {% if my_page.title %}
           <a {% if my_page.url == page.url %}class="mdl-navigation__link active"{% else %} class="mdl-navigation__link" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
          {% endif %}
         {% endfor %}
+        
+        {% assign sorted_pages = site.pages | sort:"numero-di-pagina" %}
+{% for node in sorted_pages %}
+  <li><a href="{{node.url}}">{{node.title}}</a></li>
+{% endfor %}
           <div class="mdl-layout-spacer"></div>
         </nav>
       </div>
