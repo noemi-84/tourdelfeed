@@ -138,7 +138,16 @@ ul li{
 	color: #999999;
 }
 
-.mdl-layout-title.small{
+.mdl-color-text--grey-600 h2{
+	    display: block;
+    position: relative;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: .02em;
+    font-weight: 400;
+    box-sizing: border-box;
+	margin: 24px 0;
 	font-size: 18px;
 	font-weight: 300;
 }
