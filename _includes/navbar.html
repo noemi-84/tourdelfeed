@@ -14,12 +14,9 @@
              <a class="mdl-navigation__link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
              
              {% elsif page.numero-di-pagina > p.numero-di-pagina %}
-             
-              {% if p.numero-di-pagina != "" %}
-             <a class="mdl-navigation__link blue" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-             
-             {% endif %}
-             
+                           
+             <div class="mdl-navigation__link blue"><a class="" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></div>
+                          
              {% else %} 
              
              <span class="mdl-navigation__link">{{ p.title }}</span>
